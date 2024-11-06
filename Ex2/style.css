@@ -1,0 +1,44 @@
+body{
+    background-color: #bdc3c7;
+}
+h1{
+    color: #9b59b6;
+}
+h1:hover{
+    color: blue;
+}
+h2{
+    color: orange;
+}
+.h2{
+    list-style-type: none;
+    color: blue;
+    background-color: white;
+}
+p{
+    background-color: yellow;
+}
+.hello{
+    border: 3px solid red;
+    background-color: white;
+    color: blue;
+    accent-color: blue;
+}
+#special{
+    border: 2px solid blue;
+    background-color: yellow;
+}
+.nested{
+    font-size: 25px;
+}
+.checked {
+    margin-left: 50px;
+    accent-color: blue;
+}
+input{
+    background-color: gray;
+}
+#special::first-letter{
+    color: green;
+    font-size: 100px;
+}

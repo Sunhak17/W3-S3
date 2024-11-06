@@ -1,0 +1,108 @@
+body{
+    text-align: center;
+    font-family: sans-serif;
+    border: 5px solid blue;
+    box-shadow: 2px solid blue;
+}
+.dot{
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    cursor: pointer;
+}
+.Bio img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+header{
+    margin-top: 50px;
+    font-size: 50px;
+}
+#major{
+    font-size: 25px;
+    color: gray;
+}
+.about {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+    margin-top: 50px;
+    text-align: center;
+}
+.number {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#fb img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+}   
+
+#telegram img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#twitter img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#call img{
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.view{
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact {
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .Bio img {
+      width: 100px;
+      height: 100px;
+    }
+  }
